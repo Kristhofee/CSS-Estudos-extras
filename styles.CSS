@@ -12,12 +12,17 @@ h1 {
     margin: 10px;
     border: 1px solid #9758A6;
     display: flex;
-    flex-flow: row-reverse wrap;
+    height: 700px;
+    width: 800px;
 }
 
+/*
+MAIN AXIS = EIXO PRINCIPAL
+CROSS AXIS = EIXO SECUNDARIO
+*/
+
 .block {
-    width: 100px;
-    height: 100px;
+
     background: #CDD728;
     border: 5px solid #9758A6;
     border-radius: 5px;
@@ -25,4 +30,6 @@ h1 {
     font-weight: bold;
     text-align: center;
     margin: 10px;
+    height: 100px;
+    width: 100px;
 }
